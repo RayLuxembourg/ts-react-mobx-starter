@@ -31,7 +31,7 @@ class HomeView extends Component<ClosetProps> {
 					<Heart liked={state} onClick={toggleHeart}/>
 					<div className="info">
 						<h1>Click count {clickCount}</h1>
-						<p>{isEvenCount ? 'Count is event' : 'Uneven count'}</p>
+						<p>{isEvenCount ? 'Count is even' : 'Uneven count'}</p>
 					</div>
 				</div>
 		)
