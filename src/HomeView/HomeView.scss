@@ -1,0 +1,43 @@
+#home-view {
+  .heart-container {
+	position: absolute;
+	top: calc(50% - 80px - (57px / 2));
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	
+	svg {
+	  height: 80px;
+	  width: 80px;
+	}
+  }
+  
+  .heart {
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 0;
+  }
+  
+  .info {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transform: translateY(-50%);
+	text-align: center;
+	
+	h1 {
+	  font-family: SF-PRO-BOLD;
+	  margin: 0 auto;
+	}
+	
+	p {
+	  font-family: SF-PRO-LIGHT;
+	  margin: 0 auto;
+	}
+  }
+  
+}
